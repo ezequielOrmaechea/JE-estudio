@@ -1,20 +1,5 @@
 
 
-/*h1:hover{
-    color: red;
-}
-
-h1{
-display: inline-block;
-    background-color: aqua;
-}
-header nav a {
-    padding: 0;
-}
-
-
-/*selector {propiedad:valor;}*/
-
 @font-face {
     font-family: "Nunito";
     src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
@@ -26,7 +11,7 @@ header nav a {
     }
 
     ul :hover{
-        color: azure;
+        color: rgba(35, 72, 72, 0.47);
     }
 
     .color{
@@ -219,7 +204,17 @@ background-repeat: no-repeat;
         margin: 7px;
     }
 
-    @keyframes moverImg{
+    @media (min-width: 400px) and (max-width: 767){
 
+        header nav ul li{
+            font-size: 12px;
+        }
+        main div{
+            
+                width: 100%;
+                height: 40px;
+                border-radius:5%;
+                margin: 2.3%;
+
+            }
     }
-    /*.bordesRedondeados{} para el css. luego para llamarlo en el html class="" y los separo con espacio para otro class*/
