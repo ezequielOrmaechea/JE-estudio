@@ -1,7 +1,10 @@
+
 @font-face {
     font-family: "Nunito";
     src: url(../fonts/Nunito/static/Nunito-Regular.ttf);
         }
+
+@import "./base/reset"
 
 ul:hover {
     color: rgba(35, 72, 72, 0.47);
@@ -209,5 +212,4 @@ header{
             position: absolute;
         }
     }
-    
-        
+
