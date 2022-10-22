@@ -7,13 +7,9 @@
 @import "./base/reset"
 
 ul:hover {
-    color: rgba(35, 72, 72, 0.47);
-}
-body {
-    overflow-x: hidden;
-}
+    color: rgba(35, 72, 72, 0.47); }
 
-.color {
+.color{
     color: aliceblue;
 }
 
@@ -204,9 +200,7 @@ header{
     
     @media screen and (max-width: 576px) {
     
-        .navUl{
-            display: none;
-        }
+        
         .navResponsive{
             display: block;
             position: absolute;
