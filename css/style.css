@@ -26,14 +26,52 @@ header li {
   display: inline;
   margin: 80px;
   position: relative;
-  bottom: 100px; }
+  bottom: 100px; 
+  }
   
-
 header ul {
   padding: 10px;
-  font-family: "Nunito"; }
-  header ul:hover {
-    color: rgba(35, 72, 72, 0.47); }
+  font-family: "Nunito";
+  color: aliceblue;
+  }
+
+    .parallas, .main, .texto{margin:0 auto}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+
+.texto-interior{
+	color:#fff;
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%
+}
+	
+.img-uno{background-image:url(../assents/img/living-room-interior-with-armchair-on-empty-dark-blue-wall-background-3d-rendering.jpg)}
+
+.img-dos{background-image:url(../assents/img/imagen1.jpg)}
+
+.img-tres{background-image:url(../assents/img/portada-Mar-del-Plata-la-hisotria-de-la-feliz-scaled.jpg)}
+
+
+.texto{
+  font-size: 22px;
+  text-align: justify;
+	padding:5%;
+	width: 90%;
+  font-family: "Nunito"
+} 
 
 .logo {
   color: azure;
@@ -53,13 +91,6 @@ h1 {
   position: relative;
   left: 5%; }
 
-.texto {
-  background-color: rgba(0, 0, 0, 0.422);
-  font-family: "Nunito";
-  padding: 30px;
-  text-align: center;
-  font-size: 1.5em; }
-
 .texto2 {
   display: inline;
   margin: auto;
@@ -77,18 +108,6 @@ p {
   font-family: "Nunito";
   display: inline; }
 
-.banner {
-  background-image: url(../assents/img/living-room-interior-with-armchair-on-empty-dark-blue-wall-background-3d-rendering.jpg);
-  height: 100vh;
-  width: 221vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: black 7px;
-  box-shadow: 5px 10px 50px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(10, 1fr); }
-
 .contImg Img {
   width: 20%;
   height: 250px;
@@ -100,11 +119,7 @@ p {
   transform: scale(1.02, 1.02); }
 
 h2 {
-  color: white;
-  background-color: black;
-  font-size: 1em;
-  text-align: center;
-  margin-top: 15px;
+
   font-family: "Nunito"; }
 
 h3 {
@@ -142,10 +157,11 @@ h3 {
   flex-direction: column; }
 
 .flexItem {
-  background-color: rgba(47, 51, 51, 0.201);
+  background-color: rgba(84, 122, 122, 0.313);
   margin: 10px;
   border-radius: 40px;
-  padding: 20px; }
+  padding: 20px; 
+  box-shadow:1px 1px 10px ;}
 
 .flexContenedor {
   display: flex;
@@ -172,6 +188,19 @@ form {
   left: 470px;
   font-size: 25px;
   padding: px; }
+
+  .flexConteinerFoot{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.728);
+    color: white;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .flexItemFoot{
+margin-left: 15px;
+margin-right: 15px;
+  }
 
 @media screen and (max-width: 576px) {
   .navResponsive {
@@ -242,6 +271,10 @@ form {
               box-shadow: 5px 5px 15px; }
 
               header ul {
-                display: inline;
+                display:flex;
+                justify-content:space-evenly;
+                margin-top: -50px;
+                margin:;
+                
                 font-family: "Nunito"; } 
               }
